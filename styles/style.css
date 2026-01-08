@@ -30,7 +30,7 @@
     color: #FFFFFF;
     font-size: 19px;
     border: 1px solid #FFFFFF;
-    padding: 7px;
+    padding: 7.5px;
     border-radius: 4px;
     margin-left: 10px;
 }
@@ -128,3 +128,62 @@ nav ul a{
     line-height: 30px;
     margin-bottom: 32px;
 }
+
+/* note part start */
+.note-container{
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.note-container h2{
+    color: #001931;
+    font-size: 38px;
+    padding-top: 80px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.note-container p{
+    color: #627382;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 44px;
+
+}
+
+.note-card{
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+}
+
+.background img{
+    background-color: #F95555;
+    margin-bottom: 16px;
+}
+
+.note-info{
+    box-shadow: 0 0 8px 0 #4746463a;
+}
+
+.note-card .note-info{
+    width: 300px;
+    /* border: 1px solid salmon; */
+    padding: 20px;
+}
+
+.note-info h3{
+    color: #001931;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.note-info p{
+    color: #627382;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+/* brain section start */
