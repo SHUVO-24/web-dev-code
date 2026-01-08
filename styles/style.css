@@ -171,6 +171,7 @@ nav ul a{
     width: 300px;
     /* border: 1px solid salmon; */
     padding: 20px;
+    margin-bottom: 120px;
 }
 
 .note-info h3{
@@ -187,3 +188,78 @@ nav ul a{
 }
 
 /* brain section start */
+
+
+.brain-section{
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    /* border: 2px solid salmon; */
+}
+
+.brain-section{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.brain-image img{
+    width: 550px;
+}
+
+.brain-content .solution{
+    color: #469165;
+    font-size: 16px;
+    line-height: 50px;
+}
+.brain-content h2{
+    color: #001931;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.brain-content .brain-title{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.brain-content .done p{
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 18px;
+    
+}
+
+/* challenge part */
+.challenge{
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    /* border: 2px solid salmon; */
+}
+.challenge .challenge-content{
+    text-align: center;
+    padding-top: 80px;
+}
+.challenge-content h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.challenge-content p{
+    color: #627382;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+}
+.last-line{
+    margin-top: 16px;
+    margin-bottom: 80px;
+
+}
