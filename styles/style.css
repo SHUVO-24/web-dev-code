@@ -13,7 +13,7 @@
 /* button */
 .btn{
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     background-color: #469165;
     padding: 12px 16px;
@@ -26,16 +26,37 @@
 }
 
 
+.see-btn{
+    color: #FFFFFF;
+    font-size: 19px;
+    border: 1px solid #FFFFFF;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.see-btn:hover{
+    background-color: #469165;
+    border: none;
+}
+.see-btn img{
+    margin-right: 10px;
+}
+
+.button img{
+    width: 14px;
+    margin-left: 5px;
+}
+.button{
+    align-items: center;
+}
+
 /* main part */
 
-header{
-    width: 98%;
+nav{
+    width: 80%;
     max-width: 1360px;
     margin: 0 auto;
     /* border: 1px solid red; */
-}
-
-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +72,59 @@ nav ul a{
     text-decoration: none;
     margin-right: 32px;
     color: #000000;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     line-height: 152%;
+}
+
+/* banner part */
+
+#banner{
+    background: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#banner .banner-content h6{
+    width: 230px;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #469165;
+}
+.banner-content .bulet{
+    width: 14px;
+    margin-right: 8px;
+    
+}
+
+#banner .banner-content{
+    text-align: center;
+    padding: 154px 100px;
+    width: 85%;
+}
+
+.banner-content h1{
+    width: 700px;
+    margin: 0 auto;
+    font-style: Bold;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.banner-content .white-heading{
+    color: #FFFFFF;
+}
+.banner-content .green-heading{
+    color: #30B868;
+}
+
+.banner-content p{
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-bottom: 32px;
 }
